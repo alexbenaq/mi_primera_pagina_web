@@ -55,12 +55,6 @@ i.fa-solid.fa-heart {
 }
 
 
-p {
-    text-align: right;
-    font-size: 20px;
-    padding-right: 25px;;
-    
-}
 
 .lista-de-trabajos{
     padding: 1px;
@@ -98,6 +92,13 @@ p {
     width: 25%;
     padding: 50px;
     margin: 40px 0 40px 0;
+}
+
+.greeting{
+    background-color: springgreen;
+    font-size: 25px;
+    justify-content: center;
+    padding: 10px;
 }
 
 
