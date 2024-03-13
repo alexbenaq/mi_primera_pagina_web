@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi primera web</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/9404207907.js" crossorigin="anonymous"></script>
+    <script src="./script.js" defer></script> 
+    <link href="https://fonts.googleapis.com/css2?family=Anta&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <a href="index.html"><i class="fa-solid fa-heart"></i></a>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="#acerca">Acerca de mi</a></li>
+                    <li><a href="#trabajos">Trabajos</a></li>
+                    <li><a href="#servicios">Servicios</a></li>
+                    <li><a href="#Contactos">Contacto</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main id="seccion-principal">
+            <section class="seccion-1">
+                <div class="acerca-de">
+                    <h2  style="text-align: right; font-size: 30px; padding-right: 15px;" class="test" > Acerca de mi</h2>
+                    <p>Bienvenido a mi web</p>
+                    <p>Hola, me llamo Alexander Benjamin, soy de la ciudad de Arequipa, Perú; tengo 25 años. Soy ingeniero en telecomunicaciones y me gustaria aprender sobre el diseño y la programación web!</p>
+                </div>
+                <div class="acerca-imagen">
+                    <img src="img/hero-img.PNG" alt="imagen portada" width="300" height="300">
+                </div>
+               
+            </section>
+            <section class="seccion 2">
+                <img src="img/carrusel-imgs.jpg" alt="" width="100%">
+            </section>
+            <section class="lista-de-trabajos" style="background-color: black;">
+                <h1 style="font-size:45px; color:rgb(255, 255, 255);text-align: center;padding-left: 15px;">Trabajos</h1>
+            </section>
+            <section class="seccion-3">
+                <div class="Diseñador">
+                    <div class="Diseñador-titulo">
+                        <h2 style="font-size:35px; color:rgb(0, 0, 0);text-align: center;">Diseñador</h2>
+                        <img src="img/dis.png" alt="" style="align-items: center;" >
+                    </div>
+                </div>
+                <div class="Programador">
+                    <div class="Programador-titulo">
+                        <h2 style="font-size:35px; color:rgb(0, 0, 0);text-align: center;">Programador</h2>
+                        <img src="img/prog.png" alt="">
+                    </div>
+                </div>
+                <div class="Ingeniero">
+                    <div class="Ingeniero-titulo">
+                        <h2 style="font-size:35px; color:rgb(0, 0, 0);text-align: center;">Ingeniero</h2>
+                        <img src="img/ing.png" alt="">
+                    </div>
+                </div>
+                
+            </section>
+            <section class="form-header">
+                <h1 style="text-align: center;">Contacto</h1>
+                <p style="text-align: center;"><em>¡Esperamos tu consulta!</em></p>
+
+                <form action="" method="get" class="formulario" id="form">
+                    <div class="form-row">
+                        <label for="nombre">Nombre</label>
+                        <input id="nombre" name="nombre" type="text" />
+                    </div>
+                    <div class="form-row">
+                      <label for="email">Email</label>
+                      <input
+                        id="email"
+                        name="email"
+                        type="email"
+                        placeholder="pepe@gmail.com"
+                        required
+                      />
+                    </div>
+                    <div class="form-row">
+                        <label for="mensaje">Mensaje</label>
+                        <textarea id="mensaje" name="mensaje"></textarea>
+                    </div>
+                    <div class="form-row">
+                        <button>Enviar</button>
+                    </div>
+                    <p class="alertas" id="alertas" style="background-color: yellowgreen;"></p>
+                  </form>
+            </section>
+        </main>
+
+        <footer id="contacto">
+            <nav>
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="#acerca">Acerca de mi</a></li>
+                    <li><a href="#trabajos">Trabajos</a></li>
+                    <li><a href="#servicios">Servicios</a></li>
+                    <li><a href="#Contactos">Contacto</a></li>
+                </ul>
+            </nav>
+        </footer>
+        
+    </div>
+</body>
+</html>
